@@ -5,6 +5,7 @@ body{
 }
 
 #wrapper{
+    overflow: auto;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -30,11 +31,12 @@ nav a{
 }
 
 .menubutton{
-    margin-left: 5px;
-    margin-right: 5px;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
     padding:5px;
     background-color: #3F37C9;
-    border-radius: 20px;
+    border-radius: 0px;
     transition: background-color 150ms linear;
     box-shadow: 0px 3px 2px black;
     border-color: #3A0CA3;
@@ -45,3 +47,33 @@ nav a{
     background-color: #3A0CA3;
     
 }
+
+#imageFrame{
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.img img{
+    width: 100%;
+    height: auto;
+}
+
+#imageHolder{
+    width: 100%;
+    height: 100%;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+/*ANIMATION*/
+
