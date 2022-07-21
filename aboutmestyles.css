@@ -1,10 +1,10 @@
-body{
+body {
     margin: 0;
     border: 0;
     padding: 0;
 }
 
-#wrapper{
+#wrapper {
     overflow: auto;
     position: absolute;
     width: 100%;
@@ -12,7 +12,12 @@ body{
     background-color: #013A63;
 }
 
-nav{
+#wrapper img{
+    width: 100%;
+    height: 100%;
+}
+
+nav {
     position: fixed;
     left: 50%;
     right: 50%;
@@ -23,7 +28,7 @@ nav{
     align-items: center;
 }
 
-nav a{
+nav a {
     text-align: center;
     margin-left: 40px;
     margin-right: 40px;
@@ -34,34 +39,40 @@ nav a{
     font-weight: 550;
 }
 
-.menubutton{
+.menubutton {
     white-space: nowrap;
     margin-left: 10px;
     margin-right: 10px;
-    padding:5px;
+    padding: 5px;
     background-color: #2C7DA0;
     border-radius: 0px;
     transition: background-color 150ms linear;
     box-shadow: 0px 3px 2px black;
     border-color: #012A4A;
     border-style: solid;
-    border-bottom-color:#2C7DA0;
+    border-bottom-color: #2C7DA0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-.menubutton:hover{
+.menubutton:hover {
     background-color: #012A4A;
-    
+
 }
 
-#page{
+#currentPage {
     background-color: #012A4A;
     border-bottom-color: #012A4A;
 }
 
+h2{
+    color: #A9D6E5;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+}
+
 /* SCROLLBAR */
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 0px;
 }
