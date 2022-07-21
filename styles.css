@@ -13,10 +13,10 @@ body{
 }
 
 nav{
-    position: absolute;
+    position: fixed;
     left: 50%;
     right: 50%;
-    bottom: 5%;
+    bottom: 0%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -44,10 +44,14 @@ nav a{
     box-shadow: 0px 3px 2px black;
     border-color: #012A4A;
     border-style: solid;
+    border-bottom-color: #2C7DA0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .menubutton:hover{
     background-color: #012A4A;
+    border-bottom-color: #012A4A;
     
 }
 
