@@ -4,6 +4,11 @@ body {
     padding: 0;
 }
 
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
 #wrapper {
     overflow: auto;
     position: absolute;
@@ -87,7 +92,7 @@ section {
 
 #leftside,
 #rightside {
-    height: 70%;
+    height: 80%;
     width: auto;
     display: flex;
     flex-flow: column nowrap;
@@ -109,10 +114,22 @@ section {
     font-size: 40px;
 }
 
+#bottomleft{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#bottomleft p{
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    color: #014F86;
+    font-size: 20px;
+}
+
 #topleft {
     border-style: solid;
     border-color: #A9D6E5;
-    border-bottom-color: #012A4A;
+    border-bottom-color: #2C7DA0;
 }
 
 #bottomleft {

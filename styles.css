@@ -81,19 +81,21 @@ nav a{
 }
 
 .img p{
-    display:inline;
+    display:flex;
     white-space: nowrap;
     position: absolute;
     border-style: solid;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #A9D6E5;
     border-color: #012A4A;
     background-color: #2C7DA0;
     font-size: 50px;
-    bottom: -105px;
-    height: 178px;
+    justify-content: flex-start;
+    align-items: center;
+    bottom: -55px;
+    padding: 10px;
+    margin: 0px;
     box-shadow: 0px 3px 0px black;
-    text-align: right;
 }
 
 .puzzlepiece{
@@ -110,15 +112,17 @@ nav a{
     border-style: solid;
     border-color: #2C7DA0;
     background-color: #012A4A;
+    justify-content: flex-start;
+    align-items: center;
     font-size: 50px;
     right:50%;
     top: 241px;
     height: 58px;
-    width: 490px;
+    width: 450px;
     padding: 10px;
     white-space: nowrap;
     text-align: left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #A9D6E5;
     box-shadow: 0px 3px 0px black;
 }
