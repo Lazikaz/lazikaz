@@ -81,12 +81,39 @@ h2{
 }
 
 section{
-    border-style: solid;
-    border-color: black;
+    /* border-style: solid;
+    border-color: black; */
 }
 
 #leftside, #rightside{
-    height: 70%
+    height: 70%;
+    width: auto;
+    display:flex;
+    flex-flow: column nowrap;
+    width: 50%
+
+}
+
+#topleft, #bottomleft{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 20%;
+}
+
+#topleft h2{
+    color: #014F86;
+    font-size: 40px;
+}
+
+#topleft{
+    border-style: solid;
+    border-color: #A9D6E5;
+    border-bottom-color: #012A4A;
+}
+
+#bottomleft{
+    flex-grow: 4;
 }
 
 /* SCROLLBAR */
